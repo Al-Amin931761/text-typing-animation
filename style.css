@@ -1,0 +1,115 @@
+body {
+    background-color: rgba(236, 174, 174, 0.401);
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    white-space: nowrap;
+    position: relative;
+    font-size: 15vh;
+    color: transparent;
+}
+
+.text::before {
+    content: 'Bangladeh';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: red;
+    animation: typing-text 3s linear infinite;
+}
+
+@keyframes typing-text {
+    0% {
+        content: "B|";
+    }
+
+    8% {
+        content: "Ba|";
+    }
+
+    16% {
+        content: "Ban|";
+    }
+
+    24% {
+        content: "Bang|";
+    }
+
+    32% {
+        content: "Bangl|";
+    }
+
+    40% {
+        content: "Bangla|";
+    }
+
+    48% {
+        content: "Banglad|";
+    }
+
+    56% {
+        content: "Banglade|";
+    }
+
+    64% {
+        content: "Banglades|";
+    }
+
+    72% {
+        content: "Bangladesh|";
+    }
+
+    80%,
+    89% {
+        content: "Bangladesh|";
+    }
+
+    90% {
+        content: "Banglades|";
+    }
+
+    91% {
+        content: "Banglade|";
+    }
+
+    92% {
+        content: "Banglad|";
+    }
+
+    93% {
+        content: "Bangla|";
+    }
+
+    94% {
+        content: "Bangl|";
+    }
+
+    95% {
+        content: "Bang|";
+    }
+
+    96% {
+        content: "Ban|";
+    }
+
+    97% {
+        content: "Ba|";
+    }
+
+    98% {
+        content: "B|";
+    }
+
+    99% {
+        content: "|";
+    }
+
+    100% {
+        content: "|";
+    }
+}
